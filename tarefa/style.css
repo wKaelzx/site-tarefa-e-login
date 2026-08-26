@@ -6,8 +6,8 @@
     border-radius: 5px;
 }
 
-body{
-    background: #edf7fc;
+body {
+    background: #f5f8fa;
 }
 
 span {
@@ -28,7 +28,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .header-content h1 {
@@ -50,11 +50,21 @@ span {
 
 .corpo button {
     background-color: #00ff00;
-    border-bottom: 1px solid #e5e7eb;
+    border: 1px solid #e5e7eb;
     padding: 2px;
-    box-shadow:  1px 2px 1px 0px;
+    box-shadow: 1px 2px 1px 0px;
+}
+
+.corpo button:active {
+    outline: 2px solid #007bff;
 }
 
 .tarefa input {
-    box-shadow:  1px 2px 1px 0px;
+    padding: 2px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 1px 2px 1px 0px;
+}
+
+.tarefa input:focus {
+    outline: 2px solid #007bff;
 }
