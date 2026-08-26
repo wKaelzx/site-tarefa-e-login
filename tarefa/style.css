@@ -19,7 +19,6 @@ span {
     color: #2563eb;
     border-bottom: 1px solid #e5e7eb;
     color: #2563eb;
-    text-align: center;
     align-items: center;
 }
 
@@ -32,17 +31,17 @@ span {
 }
 
 .header-content h1 {
-    padding-left: 400px;
+    padding-left: 10%
 }
 
 .header-content nav {
-    padding-right: 400px;
+    padding-right: 10%
 }
 
 .corpo {
-    padding-left: 350px;
+    padding-left: 10%;
     display: flex;
-    margin: 50px;
+    margin: 10px;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 50px;
@@ -68,4 +67,8 @@ span {
 
 .tarefa input:focus {
     outline: 2px solid #007bff;
+}
+
+ul {
+  list-style-type: none;
 }
